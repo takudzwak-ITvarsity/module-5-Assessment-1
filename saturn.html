@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Solar System</title>
+    </head>
+
+    <style>
+
+        body{
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            background-color: #000020;
+            font-family: sans-serif;
+            background-image: url("images/earth-sunrise.jpg");
+            background-repeat: no-repeat;
+            background-size: 100%;
+            color: #ffffff;
+        }
+        
+        h1 {
+            font-weight: 100;
+            font-size: 66px;
+            text-shadow: 0 0 10px #000000;
+            text-transform: uppercase;
+        }
+        
+        p.intro{
+            font-size: 26px;
+            font-weight: 200;
+            text-shadow: 0 0 10px #000000;
+        }
+        
+        #content{
+            margin-bottom: 50px;
+            padding: 8px;
+        }
+        
+        #video{
+            width: 100%;
+        }
+        
+        /*=================== BOTTOM TABS ====================*/
+        
+        #tabs-bottom{
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            z-index: 0;
+            display: inline-block;
+            width: 100%;
+            height: 50px;
+        
+            box-shadow: inset 0px 1px 0px 0px #54a3f7;
+            background: linear-gradient(#007dc1, #0061a7);
+            border-radius: 3px;
+            border: 1px solid #124d77;
+        }
+        
+        #tabs-bottom a{
+            float: left;
+            display: block;
+            width: 33%;
+            height: 35px;
+            font-weight: 700;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            text-shadow: 0px 1px 0px #154682;
+            padding-top: 18px;
+        }
+        
+            </style>
+
+    <body>
+        <div id="main">
+            <div id="content">
+                <h1>Saturn</h1>
+                <p class="intro">
+                    Saturn is the sixth planet from the Sun and the most distant that can be seen with the naked eye.
+                </p>             
+
+                <p>
+                    Saturn is best known for its fabulous ring system that was discovered in 1610 by the astronomer Galileo Galilei. Its polar diameter is 90% of its equatorial diameter, this is due to its low density and fast rotation. Saturn turns on its axis once every 10 hours and 34 minutes giving it the second-shortest day of any of the solar system's planets.
+                </p>
+
+                <h3>Saturn Facts</h3>
+                <ul>
+                    <li>Equatorial Diameter:	120,536 km</li>
+                    <li>Polar Diameter:	108,728 km</li>
+                    <li>Mass:	5.68 x 10^26 kg (95 Earths)</li>
+                    <li>Moons:	62 (Titan, Enceladus, Iapetus & Rhea)</li>
+                    <li>Rings:	30+ (7 Groups)</li>
+                    <li>Orbit Distance:	1,426,666,422 km (9.58 AU)</li>
+                    <li>Orbit Period:	10,756 days (29.5 years)</li>
+                    <li>Surface Temperature:	-139&deg;C</li>
+                    <li>First Record:	8th century BC</li>
+                    <li>Recorded By:	Assyrians</li>
+                </ul>
+                <video id="video" controls>
+                    <source src="videos/saturn-video.mp4" type="video/mp4">
+                </video>
+
+            </div>
+
+            <div id="tabs-bottom">
+            <a href="jupiter.html">Jupiter</a>
+            <a href="index.html">Home</a>
+            <a href="uranus.html">Uranus</a>
+            
+            </div>
+
+        </div>
+
+
+    </body>
+
+</html>

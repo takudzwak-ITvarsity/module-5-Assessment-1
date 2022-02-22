@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Solar System</title>
+    </head>
+    <style>
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #000020;
+    font-family: sans-serif;
+    background-image: url("images/earth-sunrise.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #ffffff;
+}
+
+h1 {
+    font-weight: 100;
+    font-size: 66px;
+    text-shadow: 0 0 10px #000000;
+    text-transform: uppercase;
+}
+
+p.intro{
+    font-size: 26px;
+    font-weight: 200;
+    text-shadow: 0 0 10px #000000;
+}
+
+#content{
+    margin-bottom: 50px;
+    padding: 8px;
+}
+
+#video{
+    width: 100%;
+}
+
+/*=================== BOTTOM TABS ====================*/
+
+#tabs-bottom{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+    display: inline-block;
+    width: 100%;
+    height: 50px;
+
+    box-shadow: inset 0px 1px 0px 0px #54a3f7;
+    background: linear-gradient(#007dc1, #0061a7);
+    border-radius: 3px;
+    border: 1px solid #124d77;
+}
+
+#tabs-bottom a{
+    float: left;
+    display: block;
+    width: 33%;
+    height: 35px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #154682;
+    padding-top: 18px;
+}
+
+    </style>
+    <body>
+        <div id="main">
+            <div id="content">
+                <h1>The Sun</h1>
+                <p class="intro">
+                    The Sun or Sol, is the star at the centre of our solar system and is responsible for the Earth's climate and weather. 
+                </p>             
+
+                <p>
+                    The Sun is an almost perfect sphere with a difference of just 10km in diameter between the poles and the equator. The average radius of the Sun is 695,508 km (109.2 x that of the Earth) of which 20-25% is the core.
+                </p>
+                <p>
+                    If a hollow Sun was filled up with spherical Earths then around 960,000 would fit inside. On the other hand if these Earths were squished inside with no wasted space then around 1,300,000 would fit inside. The Sun's surface area is 11,990 times that of the Earth's.
+                </p>
+
+                <h3>Sun Facts</h3>
+                <ul>
+                    <li>Age:	4.6 Billion Years</li>
+                    <li>Type:	Yellow Dwarf (G2V)</li>
+                    <li>Diameter:	1,392,684 km</li>
+                    <li>Equatorial Circumference	4,370,005.6 km</li>
+                    <li>Mass:	1.99 x 10^30 kg (333,060 Earths)</li>
+                    <li>Surface Temperature:	5,500°C</li>
+                </ul>
+
+                <video id="video" controls>
+                    <source src="videos/sun-video.mp4" type="video/mp4">
+                </video>
+
+            </div>
+
+            <div id="tabs-bottom">
+                <a href="neptune.html">Neptune</a>
+                <a href="index.html">Home</a>
+                <a href="venus.html">Venus</a>
+
+            </div>
+
+        </div>
+
+
+    </body>
+
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Solar System</title>
+    </head>
+
+    <style>
+
+        body{
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            background-color: #000020;
+            font-family: sans-serif;
+            background-image: url("images/earth-sunrise.jpg");
+            background-repeat: no-repeat;
+            background-size: 100%;
+            color: #ffffff;
+        }
+        
+        h1 {
+            font-weight: 100;
+            font-size: 66px;
+            text-shadow: 0 0 10px #000000;
+            text-transform: uppercase;
+        }
+        
+        p.intro{
+            font-size: 26px;
+            font-weight: 200;
+            text-shadow: 0 0 10px #000000;
+        }
+        
+        #content{
+            margin-bottom: 50px;
+            padding: 8px;
+        }
+        
+        #video{
+            width: 100%;
+        }
+        
+        /*=================== BOTTOM TABS ====================*/
+        
+        #tabs-bottom{
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            z-index: 0;
+            display: inline-block;
+            width: 100%;
+            height: 50px;
+        
+            box-shadow: inset 0px 1px 0px 0px #54a3f7;
+            background: linear-gradient(#007dc1, #0061a7);
+            border-radius: 3px;
+            border: 1px solid #124d77;
+        }
+        
+        #tabs-bottom a{
+            float: left;
+            display: block;
+            width: 33%;
+            height: 35px;
+            font-weight: 700;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            text-shadow: 0px 1px 0px #154682;
+            padding-top: 18px;
+        }
+        
+            </style>
+
+    <body>
+        <div id="main">
+            <div id="content">
+                <h1>Neptune</h1>
+                <p class="intro">
+                    Neptune is the eighth planet from the Sun making it the most distant in the solar system. 
+                </p>             
+                <p>
+                    This gas giant planet may have formed much closer to the Sun in early solar system history before migrating to its present position.</p>
+
+                <p>Despite being smaller than Uranus, Neptune has a greater mass. Below its heavy atmosphere, Uranus is made of layers of hydrogen, helium, and methane gases. They enclose a layer of water, ammonia and methane ice. The inner core of the planet is made of rock.</p>
+
+                <h3>Neptune Facts</h3>
+                <ul>
+                    <li>Equatorial Diameter:	49,528 km</li>
+                    <li>Polar Diameter:	48,682 km</li>
+                    <li>Mass:	1.02 x 10^26 kg (17 Earths)</li>
+                    <li>Moons:	14 (Triton)</li>
+                    <li>Rings:	5</li>
+                    <li>Orbit Distance:	4,498,396,441 km (30.10 AU)</li>
+                    <li>Orbit Period:	60,190 days (164.8 years)</li>
+                    <li>Surface Temperature:	-201&deg;C</li>
+                    <li>Discovery Date:	September 23rd 1846</li>
+                    <li>Discovered By:	Urbain Le Verrier & Johann Galle</li>
+                </ul>
+
+                <video id="video" controls>
+                    <source src="videos/neptune-video.mp4" type="video/mp4">
+                </video>
+
+            </div>
+
+            <div id="tabs-bottom">
+            <a href="uranus.html">Uranus</a>
+            <a href="index.html">Home</a>
+            <a href="sun.html">Sun</a>
+            
+            </div>
+
+        </div>
+
+
+    </body>
+
+</html>

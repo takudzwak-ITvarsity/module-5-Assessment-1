@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Solar System</title>
+    </head>
+
+    <style>
+
+        body{
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            background-color: #000020;
+            font-family: sans-serif;
+            background-image: url("images/earth-sunrise.jpg");
+            background-repeat: no-repeat;
+            background-size: 100%;
+            color: #ffffff;
+        }
+        
+        h1 {
+            font-weight: 100;
+            font-size: 66px;
+            text-shadow: 0 0 10px #000000;
+            text-transform: uppercase;
+        }
+        
+        p.intro{
+            font-size: 26px;
+            font-weight: 200;
+            text-shadow: 0 0 10px #000000;
+        }
+        
+        #content{
+            margin-bottom: 50px;
+            padding: 8px;
+        }
+        
+        #video{
+            width: 100%;
+        }
+        
+        /*=================== BOTTOM TABS ====================*/
+        
+        #tabs-bottom{
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            z-index: 0;
+            display: inline-block;
+            width: 100%;
+            height: 50px;
+        
+            box-shadow: inset 0px 1px 0px 0px #54a3f7;
+            background: linear-gradient(#007dc1, #0061a7);
+            border-radius: 3px;
+            border: 1px solid #124d77;
+        }
+        
+        #tabs-bottom a{
+            float: left;
+            display: block;
+            width: 33%;
+            height: 35px;
+            font-weight: 700;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            text-shadow: 0px 1px 0px #154682;
+            padding-top: 18px;
+        }
+        
+            </style>
+
+
+    <body>
+        <div id="main">
+            <div id="content">
+                <h1>Earth</h1>
+                <p class="intro">
+                    Earth is the third planet from the Sun and is the largest of the terrestrial planets. 
+                </p>             
+
+                <p>
+                    The Earth is the only planet in our solar system not to be named after a Greek or Roman deity. The Earth was formed approximately 4.54 billion years ago and is the only known planet to support life.
+                </p>
+
+                <h3>Earth Facts</h3>
+                <ul>
+                    <li>Equatorial Diameter:	12,756 km</li>
+                    <li>Polar Diameter:	12,714 km</li>
+                    <li>Mass:	5.97 x 10^24 kg</li>
+                    <li>Moons:	1 (The Moon)</li>
+                    <li>Orbit Distance:	149,598,262 km (1 AU)</li>
+                    <li>Orbit Period:	365.26 days</li>
+                    <li>Surface Temperature:	-88&deg; to 58&deg;C</li>
+                </ul>
+                <video id="video" controls>
+                    <source src="videos/earth-video.mp4" type="video/mp4">
+                </video>
+
+
+            </div>
+
+            <div id="tabs-bottom">
+            <a href="venus.html">Venus</a>
+            <a href="index.html">Home</a>
+            <a href="mars.html">Mars</a>
+
+            </div>
+
+        </div>
+
+
+    </body>
+
+</html>
